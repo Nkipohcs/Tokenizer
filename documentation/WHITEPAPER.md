@@ -1,0 +1,5 @@
+- **Role**: FT42, an educational utility token for demonstrating simple tokenomics (transfers, capped minting, burning).
+- **Monetary Policy**: Capped at **10M**, issuance controlled by a 2/3 multisig.
+- **Governance**: Initially centralized (team multisig), with potential for future decentralization.
+- **Security**: Emergency pause, unit tests, dependency audits (OZ).
+- **Distribution**: 1M initial supply -> treasury for testing/demo purposes.

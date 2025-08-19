@@ -1,0 +1,8 @@
+{
+  "bsc_testnet": {
+    "token": "0xYourTokenAddress",
+    "multisig": "0xYourMultisigAddress",
+    "deployer": "0xYourDeployerAddress",
+    "blockNumber": 0
+  }
+}

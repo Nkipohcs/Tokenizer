@@ -1,0 +1,10 @@
+- **Identified Threats**:
+  - Unwanted inflation -> **cap**.
+  - Compromised admin key -> **multisig**.
+  - Integration/bridge incident -> **pause**.
+  - Tokens lost on the contract -> **rescue** (except FT42).
+- **Best Practices**:
+  - Isolate the deployment key (test wallet).
+  - Owner rotation -> `transferOwnership`.
+  - No non-standard logic on `transfer` (avoids "tax tokens" and edge cases).
+  - Verified OZ dependencies, version pin-locked in CI (package-lock).
